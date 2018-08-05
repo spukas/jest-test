@@ -10,8 +10,7 @@ class CommentForm extends Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    // TODO: call action creator
-
+    this.props.commentSave(this.state.comment);
     this.setState({ comment: '' });
   };
 
