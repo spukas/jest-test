@@ -1,1 +1,2 @@
 export const COMMENT_SAVE = 'COMMENT_SAVE';
+export const COMMENTS_FETCH = 'COMMENTS_FETCH';
